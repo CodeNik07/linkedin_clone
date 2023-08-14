@@ -1,0 +1,71 @@
+.profile-edit-card {
+    width: 50%;
+    height: auto;
+    background-color: white;
+    margin: 30px;
+    border-radius: 8px;
+    padding: 20px;
+    position: relative;
+
+    .edit-btn {
+        position: absolute;
+        right: 20px;
+        .edit-icon {
+
+            cursor: pointer;
+            padding: 10px;
+        }
+        .edit-icon:hover {
+            background-color: rgb(197, 197, 197);
+            padding: 10px;
+            border-radius: 50%;
+        }
+    }
+
+    .profile-edit-inputs {
+        display: grid;
+        margin-top: 50px;
+        gap: 10px;
+
+        label{
+            font-family: system-ui;
+        }
+
+        .edit-input {
+            height: 10px;
+            padding: 10px;
+            color: #212121;
+            background-color: white;
+            outline: none;
+            border: 1px solid #212121;
+        }
+
+        .edit-input:focus {
+            outline: 1px solid rgb(82, 82, 248);
+        }
+
+        .edit-textarea {
+            padding: 10px;
+            color: #212121;
+            background-color: white;
+            outline: none;
+            border: 1px solid #212121;
+        }
+        .edit-textarea:focus {
+            outline: 1px solid rgb(82, 82, 248);
+        }
+
+    }
+
+    .profile-edit-save {
+        margin-top: 20px;
+        width: 50%;
+        height: 45px;
+        font-size: medium;
+        font-weight: 700;
+        border: none;
+        border-radius: 25px;
+        cursor: pointer;
+        background-color: rgb(82, 82, 248);
+    }
+}

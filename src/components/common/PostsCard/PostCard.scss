@@ -1,0 +1,35 @@
+.posts-card {
+    background-color: rgba(255, 255, 255, 0.87);
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    border: 1px solid rgb(209, 208, 208);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+
+    .name {
+        font-size: 16px;
+        color: rgba(80, 83, 231, 0.6);
+        font-weight: 600;
+        margin: 10px 0px 0px 10px;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+
+    .timestamp {
+        font-size: 10px;
+        color: rgba(0, 0, 0, 0.6);
+        font-weight: 400;
+        margin: 0px 0px 0px 10px;
+    }
+
+    .status {
+        margin: 10px 0px 0px 10px;
+        text-align: left;
+        font-size: 12px;
+        font-weight: 400;
+        color: rgba(0, 0, 0, 0.9);
+    }
+}

@@ -1,0 +1,83 @@
+.profile-card {
+    width: 60%;
+    height: auto;
+    background-color: white;
+    margin: 30px;
+    border-radius: 8px;
+    padding: 20px;
+    position: relative;
+
+    .profile-info {
+        display: flex;
+        justify-content: space-between;
+
+        .left-info {
+            width: 70%;
+        }
+
+        .right-info {
+            margin-top: 30px;
+            margin-right: 30px;
+
+            p {
+                font-size: 12px;
+                font-weight: 600;
+            }
+        }
+    }
+
+    .edit-btn {
+        position: absolute;
+        right: 20px;
+
+        .edit-icon {
+            cursor: pointer;
+            padding: 10px;
+        }
+        .edit-icon:hover {
+            background-color: rgb(197, 197, 197);
+            padding: 10px;
+            border-radius: 50%;
+        }
+    }
+
+    .username {
+        font-family: system-ui;
+        color: rgba(0, 0, 0, 0.9);
+        font-weight: 600;
+        font-size: 24px;
+    }
+
+    .user-headline {
+        font-family: system-ui;
+        font-size: 14px;
+        width: 300px;
+        line-height: 16px;
+        font-weight: 600;
+    }
+    .user-location {
+        font-family: system-ui;
+        font-size: 16px;
+        margin: 10px 0px 10px 0px;
+    }
+
+    .user-website {
+        color: blue;
+    }
+
+    .user-aboutme {
+        margin: 10px 0px 10px 0px;
+    }
+
+    .skill-label {
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    
+}
+
+
+.profile-cards-posts {
+    width: 64%;
+}
